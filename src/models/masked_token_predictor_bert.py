@@ -3,8 +3,6 @@ import torch
 import numpy as np
 import copy
 import bisect
-
-from .predict_utils import find_bpe_position_by_offset
 from torch.utils.data import DataLoader
 
 from keras_preprocessing.sequence import pad_sequences
