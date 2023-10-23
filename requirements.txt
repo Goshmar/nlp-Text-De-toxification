@@ -10,7 +10,6 @@ sentencepiece
 keras_preprocessing
 scipy
 requests
-os
 importlib
 pickle
 zipfile
