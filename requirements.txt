@@ -9,3 +9,12 @@ nltk
 sentencepiece
 keras_preprocessing
 scipy
+requests
+os
+importlib
+pickle
+zipfile
+sys
+sklearn.linear_model
+sklearn.feature_extraction.text
+argparse
