@@ -11,9 +11,7 @@ keras_preprocessing
 scipy
 requests
 importlib
-pickle
 zipfile
-sys
 sklearn.linear_model
 sklearn.feature_extraction.text
 argparse
