@@ -52,7 +52,11 @@ dataset.to_csv(csv_file_path, index=False)
 os.remove(zip_file_path)
 os.remove(tsv_file_path)
 
-dataset.sample(3)
+dataset
+
+# Let's prepare a reduced dataset for checking and visualizing the program
+dataset_cropped = dataset[["reference", "translation"]].sample(n=200)
+dataset_cropped.to_csv('dataset_cropped.csv', index=False)
 
 import sys
 sys.path.append('/content/nlp-Text-De-toxification/src/models')
