@@ -8,7 +8,7 @@ BS21-AI-01_
 Text Detoxification Task is a process of transforming the text with toxic style into the text with the same meaning but with neutral style. My goal is to 
 create a solution for detoxing text with high level of toxicity. It can be a model or set of models, or any algorithm that would work. 
 
-## Basic pipline (comands)
+## Basic pipeline (commands)
 
 1. Prepare the data using make_dataset file (```/src/data/make_dataset.py```)
 2. After that, take all the data you need from the "environment" of the models and start training (```/src/models```)
